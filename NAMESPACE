@@ -1,0 +1,5 @@
+exportPattern("^[[:alpha:]]+")
+import(methods)
+import(rstan)
+importFrom(Rcpp,loadModule)
+useDynLib(OrderedCategoricalGLM, .registration = TRUE)

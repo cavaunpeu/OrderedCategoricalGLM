@@ -1,0 +1,26 @@
+{
+    "args" : [
+        "-I/Applications/RStudio.app/Contents/Resources/resources/libclang/builtin-headers/3.5",
+        "-I/Applications/RStudio.app/Contents/Resources/resources/libclang/builtin-headers/libc++/3.5",
+        "-I/Library/Frameworks/R.framework/Versions/3.3/Resources/library/StanHeaders/include",
+        "-I/Library/Frameworks/R.framework/Versions/3.3/Resources/library/rstan/include",
+        "-I/Library/Frameworks/R.framework/Versions/3.3/Resources/library/BH/include",
+        "-I/Library/Frameworks/R.framework/Versions/3.3/Resources/library/Rcpp/include",
+        "-I/Library/Frameworks/R.framework/Versions/3.3/Resources/library/RcppEigen/include",
+        "-ftemplate-depth-256",
+        "-I/Library/Frameworks/R.framework/Resources/include",
+        "-DNDEBUG",
+        "-I`",
+        "-DBOOST_RESULT_OF_USE_TR1",
+        "-DBOOST_NO_DECLTYPE",
+        "-DBOOST_DISABLE_ASSERTS",
+        "-DEIGEN_NO_DEBUG",
+        "-I/usr/local/include",
+        "-I/usr/local/include/freetype2",
+        "-I/opt/X11/include",
+        "-fPIC"
+    ],
+    "hash" : "148969046114896902471489690248",
+    "is_cpp" : true,
+    "pch" : "Rcpp"
+}
