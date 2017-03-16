@@ -1,0 +1,10 @@
+.travis\.yml
+*.Rproj
+.Rproj\.user
+^packrat/
+.Rprofile
+.Rbuildignore
+.Rhistory
+.Rproj.user
+packrat/lib*/
+packrat/src/
