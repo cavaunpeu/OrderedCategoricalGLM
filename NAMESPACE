@@ -1,4 +1,6 @@
 exportPattern("^[[:alpha:]]+")
+
+export(buildModel)
 import(methods)
 import(rstan)
 importFrom(Rcpp,loadModule)
