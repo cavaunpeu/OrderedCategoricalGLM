@@ -14,7 +14,7 @@ buildModel <- function(feedback, outcomes, chains = 1, cores = 1, iter = 1000, w
     fit <- sampling(
         object = stanmodels$model,
         data = data,
-        init = rep( list(initial_values), chains),
+        init = rep( list(initial_values), chains ),
         chains = chains,
         cores = cores,
         iter = iter,
