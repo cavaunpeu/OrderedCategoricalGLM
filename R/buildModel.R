@@ -10,11 +10,11 @@
 
 buildModel <- function(feedback, outcomes, chains = 1, cores = 1, iter = 1000, warmup = 1000) {
     data <- list(obs = feedback, N = length(feedback))
-    initial_values <- list(cutpoints = sort(outcomes))
+    initial_values <- list(cutpoints = sort(outcomes)[-length(outcomes)])
     fit <- sampling(
         object = stanmodels$model,
         data = data,
-        init = rep(initial_values, chains),
+        init = rep( list(initial_values), chains ),
         chains = chains,
         cores = cores,
         iter = iter,
