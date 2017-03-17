@@ -2,6 +2,7 @@
 #'
 #' @param feedback A data-frame column of ordered integer scores
 #' @param outcomes A vector of the unique categories (e.g. c(1, 2, 3, 4))
+#' @param chains The number of sample chains to generate
 #' @param cores The number of cores to use in the Stan sampler
 #' @param iter The number of iterations to use in the Stan sampler
 #' @param warmup The number of warmup iterations to use in the Stan sampler
