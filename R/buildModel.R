@@ -9,7 +9,7 @@
 #' @return The fitted `stanfit` model object
 #' @export
 
-buildModel <- function(feedback, outcomes, chains = 1, cores = 1, iter = 1000, warmup = 1000) {
+buildModel <- function(feedback, outcomes = 1:5, chains = 1, cores = 1, iter = 1000, warmup = 1000) {
     data <- list(obs = feedback, N = length(feedback))
     initial_values <- list(cutpoints = sort(outcomes)[-length(outcomes)])
     fit <- sampling(
