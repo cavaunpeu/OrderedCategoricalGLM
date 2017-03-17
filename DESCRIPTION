@@ -1,12 +1,12 @@
 Package: OrderedCategoricalGLM
 Type: Package
-Title: What the package does (short line)
+Title: A single Bayesian ordered categorical GLM
 Version: 1.0
 Date: 2017-03-16
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: William Wolf
+Maintainer: William Wolf <williamabrwolf@gmail.com>
+Description: This package contains a single Bayesian ordered categorical GLM written in Stan. It was created to accompany a shinyapps application which A/B tests ordered, integer scores using this model.
+License: GPL-3
 Depends: R (>= 3.0.2), Rcpp (>= 0.12.9), methods (>= 3.3.2)
 Imports: rstan (>= 2.14.1), rstantools (>= 1.1.0)
 LinkingTo: StanHeaders (>= 2.14.0.1), rstan (>= 2.14.1), BH (>= 1.62.0.1), Rcpp (>= 0.12.9), RcppEigen (>= 0.3.2.9.0)
